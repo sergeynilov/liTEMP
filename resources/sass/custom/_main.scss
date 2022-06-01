@@ -1,0 +1,66 @@
+//
+// Custom Main
+//
+// Add your own styles or override existing ones
+//
+// This file is included last, so you have access
+// to all Bootstrap and OneUI functions/mixins/styles etc
+// --------------------------------------------------
+
+// If you have many custom styles, you can create and import additional files
+// For example you can create _component1.scss and include it as follows:
+// @import 'component1';
+
+
+
+
+.user_info__nominations-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+
+
+.user_info__nominations-sticker_mark {
+    width: 28px;
+    height: 51px;
+    margin-bottom: 3px;
+}
+
+.user_info__nominations-sticker_mark:last-child {
+    width: 27px !important;
+    height: 34px  !important;
+    margin-bottom: 0;
+}
+
+.sticker_mark__lightning {
+    width: 7px;
+    height: 14px;
+    //width: 17px !important;
+    //height: 24px  !important;
+    fill: #fff  !important;
+    position: relative  !important;
+    left: 10px  !important;
+    top: 7px  !important;
+    z-index: 1  !important;
+    //border: 2px dotted blue !important;
+}
+
+.sticker_mark__bg {
+    width: 7px !important;
+    height: 14px  !important;
+    //width: 100%;
+    //height: 100%;
+    fill: inherit;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    //border: 2px dotted red !important;
+}
